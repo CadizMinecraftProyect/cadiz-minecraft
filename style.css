@@ -162,3 +162,37 @@ footer{
     text-align:center;
     background:#06111d;
 }
+.oculto{
+    opacity:0;
+    transform:translateY(40px);
+    transition:all .8s ease;
+}
+
+.mostrar{
+    opacity:1;
+    transform:translateY(0);
+}
+
+@media (max-width:900px){
+
+nav{
+    padding:15px 20px;
+}
+
+nav ul{
+    gap:15px;
+}
+
+header h1{
+    font-size:48px;
+}
+
+header p{
+    font-size:18px;
+}
+
+section{
+    padding:70px 7%;
+}
+
+}
